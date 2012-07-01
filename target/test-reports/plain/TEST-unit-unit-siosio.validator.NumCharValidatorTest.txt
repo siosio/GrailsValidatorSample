@@ -1,0 +1,12 @@
+Testsuite: siosio.validator.NumCharValidatorTest
+Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 0.176 sec
+------------- Standard Error -----------------
+--Output from 空文字列の場合--
+------------- ---------------- ---------------
+
+Testcase: 空文字列の場合 took 0.146 sec
+	Caused an ERROR
+Property 'propertyName' must be set on the constraint
+java.lang.IllegalArgumentException: Property 'propertyName' must be set on the constraint
+	at siosio.validator.NumCharValidatorTest.空文字列の場合(NumCharValidatorTest.groovy:20)
+

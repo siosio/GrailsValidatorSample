@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="shioiri-no-MacBook-Air.local" name="siosio.validator.NumCharValidatorTest" tests="1" time="0.176" timestamp="2012-07-01T02:03:36">
+  <properties />
+  <testcase classname="siosio.validator.NumCharValidatorTest" name="空文字列の場合" time="0.15">
+    <error message="Property &apos;propertyName&apos; must be set on the constraint" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: Property &apos;propertyName&apos; must be set on the constraint
+	at siosio.validator.NumCharValidatorTest.空文字列の場合(NumCharValidatorTest.groovy:20)
+</error>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[--Output from 空文字列の場合--
+]]></system-err>
+</testsuite>
